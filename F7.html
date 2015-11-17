@@ -1,0 +1,301 @@
+<head>
+  <title>F7</title>
+</head>
+
+<body>
+     <!-- Panels Overlay -->
+     <div class="panel-overlay"></div>
+
+     <!-- About Popup -->
+     <div class="popup popup-about">
+       <div class="content-block">
+         <p>About</p>
+         <p><a href="#" class="close-popup">Close popup</a></p>
+         <p>Lorem ipsum dolor ...</p>
+         <p><a href="#" data-popup=".popup-services" class="open-popup">Open Services Popup </a></p>
+
+      </div>
+         <br>
+
+         <div class="content-block-title">List View Accordion</div>
+          <div class="list-block accordion-list">
+            <ul>
+              <li class="accordion-item"><a href="#" class="item-content item-link">
+                  <div class="item-inner">
+                    <div class="item-title">Item 1</div>
+                  </div></a>
+                <div class="accordion-item-content">
+                  <div class="content-block">
+                    <p>Item 1 content. Lorem ipsum dolor sit amet...</p>
+                  </div>
+                </div>
+              </li>
+              <li class="accordion-item"><a href="#" class="item-content item-link">
+                  <div class="item-inner">
+                    <div class="item-title">Item 2</div>
+                  </div></a>
+                <div class="accordion-item-content">
+                  <div class="content-block">
+                    <p>Item 2 content. Lorem ipsum dolor sit amet...</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+     </div>
+
+     <!-- Services Popup -->
+     <div class="popup popup-services">
+       <div class="content-block">
+         <p>Services</p>
+         <p><a href="#" class="close-popup">Close popup</a></p>
+         <p>Lorem ipsum dolor ...</p>
+       </div>
+
+       <p><a href="#" data-sortable=".sortable" class="toggle-sortable"> Toggle sortable</a></p>
+       <div class="list-block sortable">
+           <ul>
+
+             <li class="swipeout">
+               <div class="item-content">
+                 <div class="item-media"><i class="icon icon-f7"></i></div>
+                 <div class="item-inner">
+                   <div class="item-title">Item 1</div>
+                   <div class="item-after">$10</div>
+                 </div>
+                 <div class="swipeout-actions-right">
+                    <a href="#" class="action1">Action 1</a>
+                </div>
+               </div>
+               <div class="sortable-handler"></div>
+             </li>
+
+             <li class="swipeout">
+               <div class="item-content">
+                 <div class="item-media"><i class="icon icon-f7"></i></div>
+                 <div class="item-inner">
+                   <div class="item-title">Item 2</div>
+                   <div class="item-after">$20</div>
+                 </div>
+                 <div class="swipeout-actions-left">
+                  <a href="#" class="action1 bg-orange">Action 1</a>
+                  <a href="#" class="action2">Action 2</a>
+                </div>
+               </div>
+               <div class="sortable-handler"></div>
+             </li>
+
+             <li class="swipeout">
+               <div class="item-content">
+                 <div class="item-media"><i class="icon icon-f7"></i></div>
+                 <div class="item-inner">
+                   <div class="item-title">Item 3</div>
+                   <div class="item-after">$30</div>
+                 </div>
+                 <div class="swipeout-actions-right">
+                    <a href="#" class="swipeout-delete">Delete</a>
+                </div>
+               </div>
+               <div class="sortable-handler"></div>
+             </li>
+
+             <li class="swipeout">
+               <div class="item-content">
+                 <div class="item-inner">
+                   <div class="item-title">Item 4</div>
+                   <div class="item-after">$40</div>
+                 </div>
+                 <div class="swipeout-actions-right">
+                    <a href="#" class="action1 bg-orange">Action 1</a>
+                    <a href="#" class="swipeout-delete">Delete</a>
+                </div>
+               </div>
+               <div class="sortable-handler"></div>
+             </li>
+
+           </ul>
+       </div>
+
+     </div>
+
+     <!-- Left Panel with Reveal effect -->
+    <div class="panel panel-left panel-cover">
+      <div class="content-block">
+        <p>Left Panel content here</p>
+        <!-- Click on link with "close-panel" class will close panel -->
+        <p><a href="#" class="close-panel">Close me</a></p>
+        <!-- Click on link with "open-panel" and data-panel="right" attribute will open Right panel -->
+        <p><a href="#" data-panel="right" class="open-panel">Open Right Panel</a></p>
+      </div>
+    </div>
+
+    <!-- Right Panel with Cover effect -->
+    <div class="panel panel-right panel-cover">
+     <div class="content-block">
+       <p>Right Panel content here</p>
+       <!-- Click on link with "close-panel" class will close panel -->
+       <p><a href="#" class="close-panel">Close me</a></p>
+       <!-- Click on link with "open-panel" and data-panel="left" attribute will open Left panel -->
+       <p><a href="#" data-panel="left" class="open-panel">Open Left Panel</a></p>
+     </div>
+    </div>
+
+    <!-- Login Screen -->
+    <div class="login-screen">
+        <div class="view">
+          <div class="page">
+            <div class="page-content login-screen-content">
+              <div class="login-screen-title">My App</div>
+              <form>
+                <div class="list-block">
+                  <ul>
+                    <li class="item-content">
+                      <div class="item-inner">
+                        <div class="item-title label">Username</div>
+                        <div class="item-input">
+                          <input type="text" name="username" placeholder="Your username">
+                        </div>
+                      </div>
+                    </li>
+                    <li class="item-content">
+                      <div class="item-inner">
+                        <div class="item-title label">Password</div>
+                        <div class="item-input">
+                          <input type="password" name="password" placeholder="Your password">
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="list-block">
+                  <ul>
+                    <li><a href="#" class="item-link list-button">Sign In</a></li>
+                  </ul>
+                  <div class="list-block-label">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p><a href="#" class="close-login-screen">Close Login Screen</a></p>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    <div class="page-content">
+
+        <div class="content-block">
+          <!-- In data-popup attribute we specify CSS selector of popup we need to open -->
+          <p><a href="#" data-popup=".popup-about" class="open-popup">Open About Popup </a></p>
+          <p><a href="#" data-popup=".popup-services" class="open-popup">Open Services Popup </a></p>
+          <!-- If no data-panel attribute, Left panel will be opened by default -->
+          <br>
+          <p><a href="#" data-panel="left" class="open-panel">Open Left Panel</a></p>
+          <p><a href="#" data-panel="right" class="open-panel">Open Right Panel</a></p>
+          <br>
+          <p><a href="#" class="open-login-screen">Open Login Screen</a></p>
+          <br>
+
+          <div class="content-block-title">Labels and inputs</div>
+            <div class="list-block">
+              <ul>
+                <!-- Text inputs -->
+                <li>
+                  <div class="item-content">
+                    <div class="item-inner">
+                      <div class="item-title label">Name</div>
+                      <div class="item-input">
+                        <input type="text" placeholder="Your name">
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="item-content">
+                    <div class="item-inner">
+                      <div class="item-title label">E-mail</div>
+                      <div class="item-input">
+                        <input type="email" placeholder="E-mail">
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <!-- Select -->
+                <li>
+                  <div class="item-content">
+                    <div class="item-inner">
+                      <div class="item-title label">Gender</div>
+                      <div class="item-input">
+                        <select>
+                          <option>Male</option>
+                          <option>Female</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <!-- Date -->
+                <li>
+                  <div class="item-content">
+                    <div class="item-inner">
+                      <div class="item-title label">Birth date</div>
+                      <div class="item-input">
+                        <input type="date" placeholder="Birth day" value="2014-04-30">
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <!-- Date time-->
+               <li>
+                 <div class="item-content">
+                   <div class="item-inner">
+                     <div class="item-title label">Date time</div>
+                     <div class="item-input">
+                       <input type="datetime-local" value="YYYY-MM-DD, --:-- --">
+                     </div>
+                   </div>
+                 </div>
+               </li>
+                <!-- Switch (Checkbox) -->
+                <li>
+                  <div class="item-content">
+                    <div class="item-inner">
+                      <div class="item-title label">Switch</div>
+                      <div class="item-input">
+                        <label class="label-switch">
+                          <input type="checkbox">
+                          <div class="checkbox"></div>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <!-- Slider (Range input) -->
+                <li>
+                  <div class="item-content">
+                    <div class="item-inner">
+                      <div class="item-title label">Slider</div>
+                      <div class="item-input">
+                        <div class="range-slider">
+                          <input type="range" min="0" max="100" value="50" step="0.1">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+<template name="hello">
+  <button>Click Me</button>
+  <p>You've pressed the button {{counter}} times.</p>
+</template>
